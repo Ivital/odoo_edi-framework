@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:edi_party_helper_oca.field_edi_exchange_type__id_category_ids
 msgid "ID categories"
 msgstr "Категорії ID"
+
+#. module: edi_party_helper_oca
+#: model:ir.model.fields,field_description:edi_party_helper_oca.field_edi_exchange_type__endpoint_partner_category_id
+msgid "Endpoint ID category"
+msgstr "Категорія ID кінцевої точки"

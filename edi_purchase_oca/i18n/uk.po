@@ -97,3 +97,31 @@ msgstr "Кількість записів обміну"
 #: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__exchange_related_record_ids
 msgid "Exchange Related Record"
 msgstr "Пов'язаний запис обміну"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order__origin_exchange_record_id
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order_line__origin_exchange_record_id
+msgid "EDI record that originated this document."
+msgstr "Запис EDI, з якого походить цей документ."
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order_line__edi_id
+msgid "Internal or external identifier for records."
+msgstr "Внутрішній або зовнішній ідентифікатор записів."
+
+#. module: edi_purchase_oca
+#: model:ir.actions.act_window,name:edi_purchase_oca.act_open_edi_exchange_record_purchase_order_view
+msgid "Purchase Order Exchange Records"
+msgstr "Записи обміну замовлення закупівлі"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order__origin_edi_endpoint_id
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order_line__origin_edi_endpoint_id
+msgid "Record generated via this endpoint"
+msgstr "Запис, створений через цю кінцеву точку"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order__edi_disable_auto
+#: model:ir.model.fields,help:edi_purchase_oca.field_purchase_order_line__edi_disable_auto
+msgid "When marked, EDI automatic processing will be avoided"
+msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"

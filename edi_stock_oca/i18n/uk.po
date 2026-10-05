@@ -73,3 +73,18 @@ msgstr "Кількість записів обміну"
 #: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__exchange_related_record_ids
 msgid "Exchange Related Record"
 msgstr "Пов'язаний запис обміну"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,help:edi_stock_oca.field_stock_picking__origin_exchange_record_id
+msgid "EDI record that originated this document."
+msgstr "Запис EDI, з якого походить цей документ."
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,help:edi_stock_oca.field_stock_picking__origin_edi_endpoint_id
+msgid "Record generated via this endpoint"
+msgstr "Запис, створений через цю кінцеву точку"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,help:edi_stock_oca.field_stock_picking__edi_disable_auto
+msgid "When marked, EDI automatic processing will be avoided"
+msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"

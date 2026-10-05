@@ -149,3 +149,18 @@ msgstr "Шаблон QWeb"
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__template_key
 msgid "Template key"
 msgstr "Ключ шаблону"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_type__output_template_allowed_ids
+msgid "Allowed Templates"
+msgstr "Дозволені шаблони"
+
+#. module: edi_exchange_template_oca
+#: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_form
+msgid "Code snippet docs"
+msgstr "Документація фрагмента коду"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_type__output_template_id
+msgid "Exchange Template"
+msgstr "Шаблон обміну"

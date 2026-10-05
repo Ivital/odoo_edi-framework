@@ -22,3 +22,8 @@ msgstr "Бекенд EDI"
 #: model_terms:ir.ui.view,arch_db:edi_webservice_oca.edi_backend_view_form
 msgid "Webservice"
 msgstr "Вебсервіс"
+
+#. module: edi_webservice_oca
+#: model:ir.model.fields,field_description:edi_webservice_oca.field_edi_backend__webservice_backend_id
+msgid "Webservice Backend"
+msgstr "Бекенд вебсервісу"

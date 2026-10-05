@@ -67,3 +67,51 @@ msgstr "Сповіщення"
 #: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_user_id
 msgid "Responsible User"
 msgstr "Відповідальний користувач"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_type__notify_on_process_error_activity_type_id
+msgid "Activity Type Used When Notify On Process Error"
+msgstr "Тип активності для сповіщення про помилку процесу"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,help:edi_notification_oca.field_edi_exchange_record__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,help:edi_notification_oca.field_edi_exchange_record__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_type__notify_on_process_error_groups_ids
+msgid "Notify Groups On Process Error"
+msgstr "Сповіщати групи про помилку процесу"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_type__notify_on_process_error
+msgid "Notify On Process Error"
+msgstr "Сповіщати про помилку процесу"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_type__notify_on_process_error_users_ids
+msgid "Notify Users On Process Error"
+msgstr "Сповіщати користувачів про помилку процесу"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,help:edi_notification_oca.field_edi_exchange_record__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,help:edi_notification_oca.field_edi_exchange_record__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."

@@ -118,3 +118,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_exchange_type__state_workflow_ids
+msgid "Enabled state workflows"
+msgstr "Увімкнені робочі процеси станів"

@@ -82,3 +82,23 @@ msgstr "Кількість записів обміну"
 #: model:ir.model.fields,field_description:edi_account_core_oca.field_account_move__exchange_related_record_ids
 msgid "Exchange Related Record"
 msgstr "Пов'язаний запис обміну"
+
+#. module: edi_account_core_oca
+#: model:ir.actions.act_window,name:edi_account_core_oca.act_open_edi_exchange_record_account_move_view
+msgid "Account Moves Exchange Record"
+msgstr "Запис обміну бухгалтерських проводок"
+
+#. module: edi_account_core_oca
+#: model:ir.model.fields,help:edi_account_core_oca.field_account_move__origin_exchange_record_id
+msgid "EDI record that originated this document."
+msgstr "Запис EDI, з якого походить цей документ."
+
+#. module: edi_account_core_oca
+#: model:ir.model.fields,help:edi_account_core_oca.field_account_move__origin_edi_endpoint_id
+msgid "Record generated via this endpoint"
+msgstr "Запис, створений через цю кінцеву точку"
+
+#. module: edi_account_core_oca
+#: model:ir.model.fields,help:edi_account_core_oca.field_account_move__edi_disable_auto
+msgid "When marked, EDI automatic processing will be avoided"
+msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"

@@ -32,3 +32,8 @@ msgstr "Черга"
 #: model:ir.model.fields,field_description:edi_queue_oca.field_edi_exchange_type__job_priority
 msgid "Job Priority"
 msgstr "Пріоритет роботи"
+
+#. module: edi_queue_oca
+#: model:ir.model.fields,field_description:edi_queue_oca.field_edi_exchange_record__related_queue_jobs_count
+msgid "Related Queue Jobs Count"
+msgstr "Кількість пов’язаних завдань черги"

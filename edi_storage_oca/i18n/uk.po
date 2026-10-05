@@ -28,3 +28,43 @@ msgstr "Сховище"
 #: model:ir.model,name:edi_storage_oca.model_edi_exchange_type
 msgid "EDI Exchange Type"
 msgstr "Тип обміну EDI"
+
+#. module: edi_storage_oca
+#: model:ir.actions.server,name:edi_storage_oca.cron_check_storage_pending_input_ir_actions_server
+msgid "EDI backend storage check pending input"
+msgstr "Перевірка сховища бекенду EDI: очікуваний ввід"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_exchange_type__exchange_filename_pattern
+msgid "Exchange Filename Pattern"
+msgstr "Шаблон імені файлу обміну"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_done
+msgid "Input done directory"
+msgstr "Каталог виконаного введення"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_error
+msgid "Input error directory"
+msgstr "Каталог помилок введення"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_pending
+msgid "Input pending directory"
+msgstr "Каталог очікуваного введення"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_done
+msgid "Output done directory"
+msgstr "Каталог виконаного виводу"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_error
+msgid "Output error directory"
+msgstr "Каталог помилок виведення"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_pending
+msgid "Output pending directory"
+msgstr "Каталог очікуваного виведення"

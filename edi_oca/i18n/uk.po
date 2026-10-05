@@ -811,3 +811,337 @@ msgstr "Повідомлення вебсайту"
 #: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_error_on_send
 msgid "error on send"
 msgstr "помилка під час надсилання"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_record_count
+msgid "# Exchange Records"
+msgstr "Кількість записів обміну"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_consumer_mixin_buttons
+msgid "<span class=\"pe-4\"><i class=\"fa fa-retweet\"/> EDI actions</span>"
+msgstr "<span class=\"pe-4\"><i class=\"fa fa-retweet\"/> Дії EDI</span>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.message_edi_exchange_link
+msgid "<strong>EDI exchange:</strong>"
+msgstr "<strong>Обмін EDI:</strong>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.message_edi_exchange_link
+msgid "<strong>Message:</strong>"
+msgstr "<strong>Повідомлення:</strong>"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__ack_type_id
+msgid "Ack exchange type"
+msgstr "Тип підтвердження обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__ack_for_type_ids
+msgid "Ack for exchange type"
+msgstr "Підтвердження для типу обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__advanced_settings
+msgid "Advanced Settings"
+msgstr "Розширені налаштування"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__advanced_settings_edit
+msgid "Advanced YAML settings"
+msgstr "Розширені налаштування YAML"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_form
+msgid "Advanced settings"
+msgstr "Розширені налаштування"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__allow_empty_files_on_receive
+msgid "Allow Empty Files"
+msgstr "Дозволити порожні файли"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.ir_cron_archive_old_edi_records_ir_actions_server
+msgid "Archive Old EDI Exchange Records"
+msgstr "Архівувати старі записи обміну EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__auto_archive_records_after_days
+msgid "Auto-archive records after (days)"
+msgstr "Автоархівувати записи через (днів)"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__auto_delete_records_after_days
+msgid "Auto-delete archived records after (days)"
+msgstr "Автовидаляти архівні записи через (днів)"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "Created last 7 days"
+msgstr "Створено за останні 7 днів"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__encoding_in_error_handler
+msgid "Decoding Error Handler"
+msgstr "Обробник помилок декодування"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.ir_cron_delete_old_archived_edi_records_ir_actions_server
+msgid "Delete Old Archived EDI Exchange Records"
+msgstr "Видалити старі архівні записи обміну EDI"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_configuration_view_form
+msgid "EDI Config Before Do"
+msgstr "Конфігурація EDI перед виконанням"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_type_rule_view
+msgid "EDI Exchange Type Rule"
+msgstr "Правило типу обміну EDI"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.cron_edi_backend_check_input_exchange_ir_actions_server
+msgid "EDI exchange check input sync"
+msgstr "Синхронна перевірка входу обміну EDI"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.cron_edi_backend_check_output_exchange_ir_actions_server
+msgid "EDI exchange check output sync"
+msgstr "Синхронна перевірка виходу обміну EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_consumer_mixin__origin_exchange_record_id
+msgid "EDI record that originated this document."
+msgstr "Запис EDI, з якого походить цей документ."
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_configuration_view_search
+msgid "Edi Configuration"
+msgstr "Налаштування EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type_rule__enable_snippet
+msgid "Enable on snippet"
+msgstr "Увімкнути у фрагменті"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__partner_ids
+msgid "Enabled for partners"
+msgstr "Увімкнено для партнерів"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__encoding_out_error_handler
+msgid "Encoding Error Handler"
+msgstr "Обробник помилок кодування"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_receive_error
+msgid "Error on reception"
+msgstr "Помилка під час приймання"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__validate_error
+msgid "Error on validation"
+msgstr "Помилка під час перевірки"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_file_auto_generate
+msgid "Exchange File Auto Generate"
+msgstr "Автоматично генерувати файл обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_file_ext
+msgid "Exchange File Ext"
+msgstr "Розширення файлу обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_file_frozen
+msgid "Exchange File Frozen"
+msgstr "Файл обміну заморожено"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_filechecksum
+msgid "Exchange Filechecksum"
+msgstr "Контрольна сума файлу обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_filename
+msgid "Exchange Filename"
+msgstr "Ім’я файлу обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_filename_sequence_id
+msgid "Exchange Filename Sequence"
+msgstr "Послідовність імен файлів обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_error_traceback
+msgid "Exchange error traceback"
+msgstr "Трасування помилки обміну"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "Exchanged last 7 days"
+msgstr "Обмінено за останні 7 днів"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_view_failed
+msgid "Exchanges - failed"
+msgstr "Обміни - невдалі"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_view_inbound
+msgid "Exchanges - inbound"
+msgstr "Обміни - вхідні"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_view_outbound
+msgid "Exchanges - outbound"
+msgstr "Обміни - вихідні"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_view_pending
+msgid "Exchanges - pending"
+msgstr "Обміни - очікують"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_form
+msgid "Execution handlers"
+msgstr "Обробники виконання"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__external_identifier
+msgid "External Identifier"
+msgstr "Зовнішній ідентифікатор"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type_rule__form_btn_label
+msgid "Form button label"
+msgstr "Мітка кнопки форми"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type_rule__form_btn_tooltip
+msgid "Form button tooltip"
+msgstr "Підказка кнопки форми"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_configuration__is_global
+msgid "Global Configuration"
+msgstr "Глобальна конфігурація"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_id_mixin__edi_id
+msgid "Internal or external identifier for records."
+msgstr "Внутрішній або зовнішній ідентифікатор записів."
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_ir_model__is_edi_input_validator
+msgid "Is Edi Input Validator"
+msgstr "Є валідатором входу EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_ir_model__is_edi_output_validator
+msgid "Is Edi Output Validator"
+msgstr "Є валідатором виходу EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__output_sent_processed_auto
+msgid "Output Sent Processed Auto"
+msgstr "Автоматично обробляти надісланий вихід"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__output_validate_model_id
+msgid "Output Validator"
+msgstr "Валідатор виводу"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_recent_view
+msgid "Recent exchanges"
+msgstr "Останні обміни"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_view_form
+msgid "Records retention"
+msgstr "Зберігання записів"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__related_record_exists
+msgid "Related Record Exists"
+msgstr "Пов’язаний запис існує"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_type__encoding_out_error_handler__xmlcharrefreplace
+msgid "Replace with XML/HTML Numeric Character Reference"
+msgstr "Замінити на числове посилання XML/HTML"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_sent_and_processed
+msgid "Sent and processed"
+msgstr "Надіслано та оброблено"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "Show all records created in the last 7 days"
+msgstr "Показувати всі записи, створені за останні 7 днів"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "Show all records created today"
+msgstr "Показувати всі записи, створені сьогодні"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_configuration__snippet_before_do
+msgid "Snippet Before Do"
+msgstr "Фрагмент перед виконанням"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+msgid ""
+"The related record is not available anymore.\n"
+"                                    Consider deleting this record too or fixing its relation."
+msgstr ""
+"Пов’язаний запис більше недоступний.\n"
+"                                    Розгляньте можливість видалити цей запис або виправити його зв’язок."
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_pending
+msgid "Waiting to be received"
+msgstr "Очікує отримання"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_pending
+msgid "Waiting to be sent"
+msgstr "Очікує надсилання"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_consumer_mixin__edi_disable_auto
+msgid "When marked, EDI automatic processing will be avoided"
+msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"

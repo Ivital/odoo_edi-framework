@@ -17,3 +17,23 @@ msgstr ""
 #: model:ir.model.fields.selection,name:edi_exchange_deduplicate_oca.selection__edi_exchange_record__edi_exchange_state__obsolete
 msgid "Obsolete"
 msgstr "Застаріле"
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,field_description:edi_exchange_deduplicate_oca.field_edi_exchange_record__block_obsolescence
+msgid "Block Obsolescence"
+msgstr "Блокувати застарівання"
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,field_description:edi_exchange_deduplicate_oca.field_edi_exchange_type__deduplicate_on_send
+msgid "Deduplicate on Send"
+msgstr "Дедуплікувати під час надсилання"
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,field_description:edi_exchange_deduplicate_oca.field_edi_exchange_type__delete_obsolete_records
+msgid "Delete obsolete records"
+msgstr "Видалити застарілі записи"
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.actions.server,name:edi_exchange_deduplicate_oca.cron_edi_backend_delete_obsolete_records_ir_actions_server
+msgid "EDI exchange delete obsolete records"
+msgstr "Видалити застарілі записи обміну EDI"

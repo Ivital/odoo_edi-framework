@@ -107,3 +107,31 @@ msgstr "Пов'язаний запис обміну"
 #: model_terms:ir.ui.view,arch_db:edi_sale_oca.view_sales_order_filter
 msgid "Source: EDI"
 msgstr "Джерело: EDI"
+
+#. module: edi_sale_oca
+#: model_terms:ir.ui.view,arch_db:edi_sale_oca.view_sales_order_filter
+msgid "EDI exchange type"
+msgstr "Тип обміну EDI"
+
+#. module: edi_sale_oca
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order__origin_exchange_record_id
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order_line__origin_exchange_record_id
+msgid "EDI record that originated this document."
+msgstr "Запис EDI, з якого походить цей документ."
+
+#. module: edi_sale_oca
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order__origin_edi_endpoint_id
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order_line__origin_edi_endpoint_id
+msgid "Record generated via this endpoint"
+msgstr "Запис, створений через цю кінцеву точку"
+
+#. module: edi_sale_oca
+#: model:ir.actions.act_window,name:edi_sale_oca.act_open_edi_exchange_record_sale_order_view
+msgid "Sale Order Exchange Records"
+msgstr "Записи обміну замовлення продажу"
+
+#. module: edi_sale_oca
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order__edi_disable_auto
+#: model:ir.model.fields,help:edi_sale_oca.field_sale_order_line__edi_disable_auto
+msgid "When marked, EDI automatic processing will be avoided"
+msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"

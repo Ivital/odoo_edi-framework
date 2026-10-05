@@ -44,3 +44,8 @@ msgstr "Робочий процес"
 #: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_line_state_3
 msgid "Changed"
 msgstr "Змінено"
+
+#. module: edi_sale_ubl_oca
+#: model:ir.model.fields,help:edi_sale_ubl_oca.field_sale_order_line__edi_id
+msgid "Internal or external identifier for records."
+msgstr "Внутрішній або зовнішній ідентифікатор записів."
