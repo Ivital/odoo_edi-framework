@@ -205,3 +205,9 @@ msgstr "У цьому полі зберігається архітектура �
 #: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__allowed_type_ids
 msgid "Types allowed to use this template."
 msgstr "Типи, яким дозволено використовувати цей шаблон."
+
+#. module: edi_exchange_template_oca
+#. odoo-python
+#: code:addons/edi_exchange_template_oca/models/edi_exchange_type.py:0
+msgid "Template not allowed for this type."
+msgstr "Шаблон не дозволений для цього типу."

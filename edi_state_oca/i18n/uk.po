@@ -152,3 +152,21 @@ msgstr "Робочий процес стану EDI."
 #: model:ir.model,name:edi_state_oca.model_edi_state_consumer_mixin
 msgid "Provide specific EDI states for related records."
 msgstr "Надає конкретні стани EDI для пов’язаних записів."
+
+#. module: edi_state_oca
+#. odoo-python
+#: code:addons/edi_state_oca/models/edi_state.py:0
+msgid "Only one state per workflow can be the default one."
+msgstr "У кожному робочому процесі лише один стан може бути типовим."
+
+#. module: edi_state_oca
+#. odoo-python
+#: code:addons/edi_state_oca/models/edi_exchange_type.py:0
+msgid "Only one workflow per model is allowed"
+msgstr "Для однієї моделі дозволений лише один робочий процес"
+
+#. module: edi_state_oca
+#. odoo-python
+#: code:addons/edi_state_oca/models/edi_state_consumer_mixin.py:0
+msgid "State %(name)s [%(code)s] not allowed"
+msgstr "Стан %(name)s [%(code)s] не дозволений"

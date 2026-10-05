@@ -19,3 +19,158 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:edi_core_oca.edi_configuration_view_form
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "ACK file is required for this exchange but not found."
+msgstr "Для цього обміну потрібен ACK-файл, але його не знайдено."
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "ACK file received but contains errors."
+msgstr "Файл ACK отримано, але він містить помилки."
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "ACK file received."
+msgstr "Файл ACK отримано."
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Action retry: state moved back to '%s'"
+msgstr "Повтор дії: стан повернуто до «%s»"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "An error happened while sending. Please check exchange record info."
+msgstr ""
+"Під час надсилання сталася помилка. Перевірте інформацію запису обміну."
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_configuration.py:0
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Backend must match with exchange type's backend!"
+msgstr "Бекенд має відповідати бекенду типу обміну!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_type.py:0
+msgid "Backend should respect backend type!"
+msgstr "Бекенд має відповідати типу бекенду!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_configuration.py:0
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Backend type must match with exchange type's backend type!"
+msgstr "Тип бекенду має відповідати типу бекенду обміну!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Empty files are not allowed for exchange type %(name)s (%(code)s)"
+msgstr "Порожні файли не дозволені для типу обміну %(name)s (%(code)s)"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange data generated"
+msgstr "Дані обміну згенеровано"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange not received"
+msgstr "Обмін не отримано"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange not valid"
+msgstr "Обмін недійсний"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange processed successfully"
+msgstr "Обмін успішно оброблено"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange processed with errors"
+msgstr "Обмін оброблено з помилками"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange received successfully"
+msgstr "Обмін успішно отримано"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Exchange record ID=%d already has a file to process!"
+msgstr "Запис обміну ID=%d уже має файл для обробки!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Exchange record ID=%d is not an outgoing record, cannot be generated"
+msgstr "Запис обміну ID=%d не є вихідним, його неможливо згенерувати"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid ""
+"Exchange record ID=%d is not in draft state and has already an output value."
+msgstr ""
+"Запис обміну ID=%d не перебуває у стані чернетки й уже має вихідне значення."
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange sent"
+msgstr "Обмін надіслано"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_exchange_record.py:0
+msgid "Exchange state must respect direction!"
+msgstr "Стан обміну має відповідати напрямку!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "No handler for %(action)s"
+msgstr "Немає обробника для %(action)s"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Record ID=%d has no file to process!"
+msgstr "Запис ID=%d не має файлу для обробки!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Record ID=%d has no file to send!"
+msgstr "Запис ID=%d не має файлу для надсилання!"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Record ID=%d is not meant to be processed"
+msgstr "Запис ID=%d не призначений для обробки"
+
+#. module: edi_core_oca
+#. odoo-python
+#: code:addons/edi_core_oca/models/edi_backend.py:0
+msgid "Record ID=%d is not meant to be sent!"
+msgstr "Запис ID=%d не призначений для надсилання!"

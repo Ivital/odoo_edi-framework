@@ -232,3 +232,33 @@ msgstr "кінцеві точки налаштовано"
 #: model:ir.model,name:edi_endpoint_oca.model_edi_endpoint
 msgid "EDI Endpoint"
 msgstr "Кінцева точка EDI"
+
+#. module: edi_endpoint_oca
+#. odoo-python
+#: code:addons/edi_endpoint_oca/models/edi_endpoint.py:0
+msgid "Backend and exchange type are mandatory"
+msgstr "Бекенд і тип обміну є обов’язковими"
+
+#. module: edi_endpoint_oca
+#. odoo-python
+#: code:addons/edi_endpoint_oca/models/edi_endpoint.py:0
+msgid "Create exchange record"
+msgstr "Створити запис обміну"
+
+#. module: edi_endpoint_oca
+#. odoo-python
+#: code:addons/edi_endpoint_oca/models/edi_endpoint.py:0
+msgid "Exchange type not compatible with selected backend type."
+msgstr "Тип обміну несумісний із вибраним типом бекенду."
+
+#. module: edi_endpoint_oca
+#. odoo-python
+#: code:addons/edi_endpoint_oca/models/edi_backend.py:0
+msgid ""
+"The following backend(s) have endpoints attached. Please archive them before:\n"
+"\n"
+"%s"
+msgstr ""
+"До таких бекендів прив’язані кінцеві точки. Спочатку архівуйте їх:\n"
+"\n"
+"%s"

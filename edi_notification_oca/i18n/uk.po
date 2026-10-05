@@ -140,3 +140,9 @@ msgid ""
 msgstr ""
 "Виберіть користувачів, яким надсилати сповіщення. Якщо вибрано «Групи "
 "сповіщень», сповіщення також надсилатимуться вибраним тут користувачам."
+
+#. module: edi_notification_oca
+#. odoo-python
+#: code:addons/edi_notification_oca/components/listener.py:0
+msgid "EDI: Process error on record '%(identifier)s'."
+msgstr "EDI: помилка обробки запису «%(identifier)s»."

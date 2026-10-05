@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model,name:edi_exchange_template_party_data.model_edi_exchange_template_output
 msgid "EDI Exchange Output Template"
 msgstr "Шаблон виходу обміну EDI"
+
+#. module: edi_exchange_template_party_data
+#. odoo-python
+#: code:addons/edi_exchange_template_party_data/models/edi_exchange_template_output.py:0
+msgid "No info provider found for party data"
+msgstr "Не знайдено постачальника інформації для даних сторони"
