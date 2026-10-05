@@ -68,3 +68,50 @@ msgstr "Каталог помилок виведення"
 #: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_pending
 msgid "Output pending directory"
 msgstr "Каталог очікуваного виведення"
+
+#. module: edi_storage_oca
+#: model:ir.model,name:edi_storage_oca.model_edi_exchange_record
+msgid "EDI exchange Record"
+msgstr "Запис обміну EDI"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_exchange_type__exchange_filename_pattern
+msgid ""
+"For output exchange types this should be a formatting string with the following variables available (to be used between brackets, `{}`): `exchange_record`, `record_name`, `type` and `dt`. For instance, a valid string would be {record_name}-{type.code}-{dt}\n"
+"For input exchange types related to storage backends it should be a regex expression to filter the files to be fetched from the pending directory in the related storage. E.g: `.*my-type-[0-9]*.\\.csv`"
+msgstr ""
+"Для вихідних типів обміну це має бути рядок форматування з такими доступними змінними (використовуються у фігурних дужках `{}`): `exchange_record`, `record_name`, `type` та `dt`. Наприклад, коректний рядок: {record_name}-{type.code}-{dt}\n"
+"Для вхідних типів обміну, пов'язаних із бекендами сховища, це має бути регулярний вираз для фільтрації файлів, які потрібно отримати з каталогу pending у відповідному сховищі. Наприклад: `.*my-type-[0-9]*.\\.csv`"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_done
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_done
+msgid "Path to folder for doneful operations"
+msgstr "Шлях до папки для завершених операцій"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_error
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_error
+msgid "Path to folder for error operations"
+msgstr "Шлях до папки для помилкових операцій"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_pending
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_pending
+msgid "Path to folder for pending operations"
+msgstr "Шлях до папки для операцій в очікуванні"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_exchange_record__storage_id
+msgid "Record created from a file found in this FS storage"
+msgstr "Запис, створений із файлу, знайденого в цьому FS-сховищі"
+
+#. module: edi_storage_oca
+#: model:ir.model,name:edi_storage_oca.model_edi_oca_storage_handler
+msgid "Storage Handler for EDI"
+msgstr "Обробник сховища для EDI"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__storage_id
+msgid "Storage for in-out files"
+msgstr "Сховище для вхідних/вихідних файлів"

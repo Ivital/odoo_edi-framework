@@ -22,3 +22,22 @@ msgstr "Категорії ID"
 #: model:ir.model.fields,field_description:edi_party_helper_oca.field_edi_exchange_type__endpoint_partner_category_id
 msgid "Endpoint ID category"
 msgstr "Категорія ID кінцевої точки"
+
+#. module: edi_party_helper_oca
+#: model:ir.model.fields,help:edi_party_helper_oca.field_edi_exchange_type__id_category_ids
+msgid "Allowed ID categories to be used to generate parties information."
+msgstr "Дозволені категорії ID для формування інформації про сторони."
+
+#. module: edi_party_helper_oca
+#: model:ir.model,name:edi_party_helper_oca.model_edi_party_helper
+msgid "EDI Party Helper"
+msgstr "Помічник сторони EDI"
+
+#. module: edi_party_helper_oca
+#: model:ir.model.fields,help:edi_party_helper_oca.field_edi_exchange_type__endpoint_partner_category_id
+msgid ""
+"ID category whose id_number is used as the party's `EndpointID` (only "
+"meaningful for output exchanges)."
+msgstr ""
+"Категорія ID, чий id_number використовується як `EndpointID` сторони (має "
+"значення лише для вихідних обмінів)."

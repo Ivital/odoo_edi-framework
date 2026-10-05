@@ -227,3 +227,8 @@ msgstr "Використовуйте для групування маршрут�
 #: model_terms:ir.ui.view,arch_db:edi_endpoint_oca.edi_backend_view_form
 msgid "endpoints configured"
 msgstr "кінцеві точки налаштовано"
+
+#. module: edi_endpoint_oca
+#: model:ir.model,name:edi_endpoint_oca.model_edi_endpoint
+msgid "EDI Endpoint"
+msgstr "Кінцева точка EDI"

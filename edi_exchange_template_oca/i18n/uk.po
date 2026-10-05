@@ -164,3 +164,44 @@ msgstr "Документація фрагмента коду"
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_type__output_template_id
 msgid "Exchange Template"
 msgstr "Шаблон обміну"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model,name:edi_exchange_template_oca.model_edi_exchange_template_mixin
+msgid "EDI Exchange Output Mixin"
+msgstr "Міксин виходу обміну EDI"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model,name:edi_exchange_template_oca.model_edi_oca_template_handler
+msgid "Exchange Template Handler for EDI"
+msgstr "Обробник шаблону обміну для EDI"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__template_key
+msgid "ID of the view defined in xml file"
+msgstr "ID перегляду у файлі XML"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__prettify
+msgid "Prettify output. Works for XML output only."
+msgstr "Форматувати вихід. Працює лише для XML."
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_type__output_template_id
+msgid "Template used to generate or process this type."
+msgstr "Шаблон для створення або обробки цього типу."
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_type__output_template_allowed_ids
+msgid "Templates allowed to be used with this type."
+msgstr "Шаблони, дозволені для цього типу."
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__template_arch
+msgid "This field stores the view arch."
+msgstr "У цьому полі зберігається архітектура перегляду."
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_mixin__allowed_type_ids
+#: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__allowed_type_ids
+msgid "Types allowed to use this template."
+msgstr "Типи, яким дозволено використовувати цей шаблон."

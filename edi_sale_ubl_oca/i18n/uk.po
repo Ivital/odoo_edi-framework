@@ -49,3 +49,38 @@ msgstr "Змінено"
 #: model:ir.model.fields,help:edi_sale_ubl_oca.field_sale_order_line__edi_id
 msgid "Internal or external identifier for records."
 msgstr "Внутрішній або зовнішній ідентифікатор записів."
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_line_state_5
+msgid "Accepted without amendment"
+msgstr "Прийнято без змін"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_line_state_42
+msgid "Already delivered"
+msgstr "Уже доставлено"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_state_ca
+msgid "Conditionally accepted"
+msgstr "Умовно прийнято"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_state_ab
+msgid "Message acknowledgement"
+msgstr "Підтвердження повідомлення"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,description:edi_sale_ubl_oca.edi_sale_order_line_state_3
+msgid "Order line is accepted with change"
+msgstr "Рядок замовлення прийнято зі змінами"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_line_state_1
+msgid "Order line is added"
+msgstr "Рядок замовлення додано"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,description:edi_sale_ubl_oca.edi_sale_order_line_state_1
+msgid "The information is to be or has been added"
+msgstr "Інформацію потрібно додати або вже додано"

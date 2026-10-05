@@ -123,3 +123,32 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:edi_state_oca.field_edi_exchange_type__state_workflow_ids
 msgid "Enabled state workflows"
 msgstr "Увімкнені робочі процеси станів"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,help:edi_state_oca.field_edi_exchange_type__state_workflow_ids
+msgid ""
+"Allowed workflows that can be used by this type of exchanges. You can select"
+" only 1 workflow per model."
+msgstr ""
+"Дозволені робочі процеси для цього типу обміну. Для кожної моделі можна "
+"вибрати лише 1 робочий процес."
+
+#. module: edi_state_oca
+#: model:ir.model.constraint,message:edi_state_oca.constraint_edi_state_state_workflow_code_uniq
+msgid "Code must be unique per each workflow."
+msgstr "Код має бути унікальним для кожного робочого процесу."
+
+#. module: edi_state_oca
+#: model:ir.model,name:edi_state_oca.model_edi_state
+msgid "EDI specific state."
+msgstr "Специфічний стан EDI."
+
+#. module: edi_state_oca
+#: model:ir.model,name:edi_state_oca.model_edi_state_workflow
+msgid "EDI state workflow."
+msgstr "Робочий процес стану EDI."
+
+#. module: edi_state_oca
+#: model:ir.model,name:edi_state_oca.model_edi_state_consumer_mixin
+msgid "Provide specific EDI states for related records."
+msgstr "Надає конкретні стани EDI для пов’язаних записів."

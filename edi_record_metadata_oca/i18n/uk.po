@@ -23,3 +23,18 @@ msgstr "Метадані"
 #: model:ir.model.fields,field_description:edi_record_metadata_oca.field_edi_exchange_record__metadata_display
 msgid "Metadata Display"
 msgstr "Відображення метаданих"
+
+#. module: edi_record_metadata_oca
+#: model:ir.model,name:edi_record_metadata_oca.model_edi_exchange_consumer_mixin
+msgid "Abstract record where exchange records can be assigned"
+msgstr "Абстрактний запис, якому можна призначати записи обміну"
+
+#. module: edi_record_metadata_oca
+#: model:ir.model.fields,help:edi_record_metadata_oca.field_edi_exchange_record__metadata_display
+msgid "Enable debug mode to be able to inspect data."
+msgstr "Увімкніть режим налагодження, щоб мати змогу переглядати дані."
+
+#. module: edi_record_metadata_oca
+#: model:ir.model.fields,help:edi_record_metadata_oca.field_edi_exchange_record__metadata
+msgid "JSON-like metadata used for technical purposes."
+msgstr "JSON-подібні метадані для технічних цілей."

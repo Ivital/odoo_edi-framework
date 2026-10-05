@@ -37,3 +37,22 @@ msgstr "Видалити застарілі записи"
 #: model:ir.actions.server,name:edi_exchange_deduplicate_oca.cron_edi_backend_delete_obsolete_records_ir_actions_server
 msgid "EDI exchange delete obsolete records"
 msgstr "Видалити застарілі записи обміну EDI"
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,help:edi_exchange_deduplicate_oca.field_edi_exchange_type__deduplicate_on_send
+msgid ""
+"Before sending an exchange record, check if a fresher one does not exist for"
+" same record; if so, mark oldest one as obsolete."
+msgstr ""
+"Перед надсиланням запису обміну перевіряти, чи немає новішого для того "
+"самого запису; якщо є — позначити старий як застарілий."
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,help:edi_exchange_deduplicate_oca.field_edi_exchange_type__delete_obsolete_records
+msgid "Delete records marked as obsolete."
+msgstr "Видалити записи, позначені як застарілі."
+
+#. module: edi_exchange_deduplicate_oca
+#: model:ir.model.fields,help:edi_exchange_deduplicate_oca.field_edi_exchange_record__block_obsolescence
+msgid "Flag record that can never be marked as obsolete"
+msgstr "Позначає запис, який ніколи не можна вважати застарілим"

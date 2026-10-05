@@ -1145,3 +1145,271 @@ msgstr "Історія комунікації через вебсайт"
 #: model:ir.model.fields,help:edi_oca.field_edi_exchange_consumer_mixin__edi_disable_auto
 msgid "When marked, EDI automatic processing will be avoided"
 msgstr "Якщо позначено, автоматичну обробку EDI буде вимкнено"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_related_record_related_record_unique
+msgid "A record can only be related once to a specific exchange record."
+msgstr ""
+"Запис може бути пов’язаний із конкретним записом обміну лише один раз."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__ack_exchange_id
+msgid "ACK generated for current exchange."
+msgstr "ACK створено для поточного обміну."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type_rule__model_id
+msgid "Apply to this model"
+msgstr "Застосувати до цієї моделі"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_backend__auto_archive_records_after_days
+msgid ""
+"Automatically archive EDI exchange records after X days. Set to <= 0 to "
+"disable auto-archiving."
+msgstr ""
+"Автоматично архівувати записи обміну EDI через X днів. Встановіть <= 0, щоб "
+"вимкнути автоархівацію."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_backend__auto_delete_records_after_days
+msgid ""
+"Automatically delete archived EDI exchange records after X days. Set to <= 0"
+" to disable auto-deletion."
+msgstr ""
+"Автоматично видаляти архівні записи обміну EDI через X днів. Встановіть <= "
+"0, щоб вимкнути автовидалення."
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_backend_type_uniq_code
+msgid "Backend type code must be unique!"
+msgstr "Код типу бекенду має бути унікальним!"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_configuration_trigger_code_uniq
+msgid "Code must be unique"
+msgstr "Код має бути унікальним"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_record_create_wiz
+msgid "Create an Exchange Record"
+msgstr "Створити запис обміну"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__description
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration_trigger__description
+msgid "Describe what the conf is for"
+msgstr "Опишіть призначення цієї конфігурації"
+
+#. module: edi_oca
+#: model:res.groups,name:edi_oca.group_edi_advanced_settings_manager
+msgid "EDI Advanced Settings Manager"
+msgstr "Менеджер розширених налаштувань EDI"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_type_rule
+msgid "EDI Exchange type rule"
+msgstr "Правило типу обміну EDI"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_id_mixin
+msgid "EDI ID mixin"
+msgstr "Міксин ID EDI"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_check
+msgid "EDI OCA Handler Check"
+msgstr "Обробник перевірки EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_generate
+msgid "EDI OCA Handler Generate"
+msgstr "Обробник генерації EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_input_validate
+msgid "EDI OCA Handler Input Validate"
+msgstr "Перевірка входу обробника EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_output_validate
+msgid "EDI OCA Handler Output Validate"
+msgstr "Перевірка виходу обробника EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_process
+msgid "EDI OCA Handler Process"
+msgstr "Обробник процесу EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_receive
+msgid "EDI OCA Handler Receive"
+msgstr "Обробник отримання EDI OCA"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_oca_handler_send
+msgid "EDI OCA Handler Send"
+msgstr "Обробник надсилання EDI OCA"
+
+#. module: edi_oca
+#: model:res.groups,name:edi_oca.group_edi_override_exchange_file_content
+msgid "EDI Override Exchange File Content"
+msgstr "Перевизначення вмісту файлу обміну EDI"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_related_record
+msgid "EDI exchange Related Record"
+msgstr "Пов’язаний запис обміну EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__encoding
+msgid ""
+"Encoding to be applied to generate/process the exchanged file.\n"
+"Example: UTF-8, Windows-1252, ASCII...(default is always 'UTF-8')"
+msgstr ""
+"Кодування для створення/обробки файла обміну.\n"
+"Приклад: UTF-8, Windows-1252, ASCII... (типово завжди 'UTF-8')"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type_rule__enable_domain
+msgid "Filter domain to be checked on Models"
+msgstr "Домен фільтра для перевірки на моделях"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__encoding_in_error_handler
+msgid ""
+"Handling of decoding errors on process (default is always 'Raise Error')."
+msgstr ""
+"Обробка помилок декодування під час обробки (типово завжди «Raise Error»)."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__encoding_out_error_handler
+msgid ""
+"Handling of encoding errors on generate (default is always 'Raise Error')."
+msgstr ""
+"Обробка помилок кодування під час генерації (типово завжди «Raise Error»)."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type_rule__form_btn_tooltip
+msgid "Help message visible as tooltip on button h-over"
+msgstr "Довідкове повідомлення, видиме як підказка при наведенні на кнопку"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__ack_type_id
+msgid ""
+"Identify the type of the ack. If this field is valued it means an hack is "
+"expected."
+msgstr ""
+"Визначає тип підтвердження. Якщо поле заповнене, очікується підтвердження."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__is_global
+msgid ""
+"If checked, this configuration will be executed for all records, regardless "
+"of the partner relation."
+msgstr ""
+"Якщо позначено, ця конфігурація виконуватиметься для всіх записів незалежно "
+"від зв’язку з партнером."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__exchange_filename_sequence_id
+msgid ""
+"If the `Exchange Filename Pattern` has `{seq}`, you should define a sequence"
+" in this field to show the sequence in your filename"
+msgstr ""
+"Якщо `Exchange Filename Pattern` містить `{seq}`, у цьому полі потрібно "
+"визначити послідовність для відображення у назві файла"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__model_id
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration_trigger__model_id
+msgid "Model the conf applies to. Leave blank to apply for all models"
+msgstr ""
+"Модель, до якої застосовується конфігурація. Залиште порожнім, щоб "
+"застосувати до всіх моделей"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__exchange_file_frozen
+msgid "Not allowed to change the file anymore."
+msgstr "Змінювати файл більше не дозволено."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__parent_id
+msgid "Original exchange which originated this record"
+msgstr "Початковий обмін, з якого походить цей запис"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__rule_ids
+msgid "Rules to handle exchanges and UI automatically"
+msgstr "Правила автоматичної обробки обмінів та UI"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__ack_received_on
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__exchanged_on
+msgid "Sent or received on this date."
+msgstr "Надіслано або отримано в цю дату."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__snippet_before_do
+msgid "Snippet to validate the state and collect records to do"
+msgstr "Фрагмент коду для перевірки стану та збору записів для обробки"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_type_code_uniq
+msgid "The code must be unique per backend"
+msgstr "Код має бути унікальним для кожного бекенду"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_external_identifier_uniq
+msgid "The external_identifier must be unique for a type and a backend."
+msgstr "external_identifier має бути унікальним для типу й бекенду."
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_identifier_uniq
+msgid "The identifier must be unique."
+msgstr "Ідентифікатор має бути унікальним."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__retryable
+msgid "The record state can be rolled back manually in case of failure."
+msgstr "У разі помилки стан запису можна відкотити вручну."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__trigger_id
+msgid "Trigger that activates this configuration"
+msgstr "Тригер, що активує цю конфігурацію"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type_rule__form_btn_label
+msgid "Type name used by default"
+msgstr "Типова назва типу"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_configuration__snippet_do
+msgid ""
+"Used to do something specific here.\n"
+"        Receives: operation, edi_action, vals, old_vals."
+msgstr ""
+"Використовується для виконання спеціальної логіки тут.\n"
+"        Отримує: operation, edi_action, vals, old_vals."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__quick_exec
+msgid ""
+"When active, records of this type will be processed immediately without "
+"waiting for the cron to pass by. Requires auto generate flag to be active as"
+" well. The cron will skip these records unless forced."
+msgstr ""
+"Коли ввімкнено, записи цього типу оброблятимуться негайно, без очікування "
+"запуску cron. Прапорець автоматичного створення також має бути активним. "
+"Cron пропускатиме ці записи, якщо його не запущено примусово."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__partner_ids
+msgid ""
+"You can use this field to limit generating/processing exchanges for specific"
+" partners. Use it directly or within models rules (domain or snippet)."
+msgstr ""
+"Це поле можна використати, щоб обмежити створення/обробку обмінів для певних"
+" партнерів. Використовуйте його безпосередньо або в правилах моделей (домен "
+"чи фрагмент коду)."
