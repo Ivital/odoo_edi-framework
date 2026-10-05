@@ -23,3 +23,8 @@ msgstr "Сховище FS"
 #: model_terms:ir.ui.view,arch_db:edi_storage_oca.edi_backend_view_form
 msgid "Storage"
 msgstr "Сховище"
+
+#. module: edi_storage_oca
+#: model:ir.model,name:edi_storage_oca.model_edi_exchange_type
+msgid "EDI Exchange Type"
+msgstr "Тип обміну EDI"

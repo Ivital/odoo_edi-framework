@@ -39,3 +39,8 @@ msgstr "Відхилено"
 #: model:ir.model.fields,field_description:edi_sale_ubl_oca.field_sale_order_line__edi_state_workflow_id
 msgid "Workflow"
 msgstr "Робочий процес"
+
+#. module: edi_sale_ubl_oca
+#: model:edi.state,name:edi_sale_ubl_oca.edi_sale_order_line_state_3
+msgid "Changed"
+msgstr "Змінено"

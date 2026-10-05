@@ -27,3 +27,49 @@ msgstr "Конфігурація EDI"
 #: model_terms:ir.ui.view,arch_db:edi_stock_oca.view_partner_form
 msgid "Transfers"
 msgstr "Переміщення"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__origin_edi_endpoint_id
+msgid "EDI origin endpoint"
+msgstr "Початкова кінцева точка EDI"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__origin_exchange_type_id
+msgid "EDI origin exchange type"
+msgstr "Початковий тип обміну EDI"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__origin_exchange_record_id
+msgid "EDI origin record"
+msgstr "Початковий запис EDI"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_res_partner__edi_stock_picking_conf_ids
+#: model:ir.model.fields,field_description:edi_stock_oca.field_res_users__edi_stock_picking_conf_ids
+msgid "EDI stock configuration"
+msgstr "Конфігурація EDI для складу"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__edi_has_form_config
+msgid "Edi Has Form Config"
+msgstr "EDI має конфігурацію форми"
+
+#. module: edi_stock_oca
+#: model_terms:ir.ui.view,arch_db:edi_stock_oca.stock_picking_form_view
+msgid "Electronic Data Interchange"
+msgstr "Електронний обмін даними"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__exchange_record_ids
+msgid "Exchange Record"
+msgstr "Запис обміну"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__exchange_record_count
+msgid "Exchange Record Count"
+msgstr "Кількість записів обміну"
+
+#. module: edi_stock_oca
+#: model:ir.model.fields,field_description:edi_stock_oca.field_stock_picking__exchange_related_record_ids
+msgid "Exchange Related Record"
+msgstr "Пов'язаний запис обміну"

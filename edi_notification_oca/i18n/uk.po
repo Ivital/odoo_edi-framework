@@ -22,3 +22,48 @@ msgstr "Дії"
 #: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_exception_icon
 msgid "Icon"
 msgstr "Іконка"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: edi_notification_oca
+#: model_terms:ir.ui.view,arch_db:edi_notification_oca.edi_exchange_type_view_form
+msgid "Notification"
+msgstr "Сповіщення"
+
+#. module: edi_notification_oca
+#: model:ir.model.fields,field_description:edi_notification_oca.field_edi_exchange_record__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"

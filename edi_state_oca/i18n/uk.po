@@ -95,3 +95,26 @@ msgstr "Штати"
 #: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_view_search
 msgid "Workflow"
 msgstr "Робочий процес"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__state_ids
+msgid "Available states"
+msgstr "Доступні стани"
+
+#. module: edi_state_oca
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_view_search
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__write_uid
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__write_date
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

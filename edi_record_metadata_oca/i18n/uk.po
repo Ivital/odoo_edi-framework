@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:edi_record_metadata_oca.edi_exchange_record_view_form
 msgid "Metadata"
 msgstr "Метадані"
+
+#. module: edi_record_metadata_oca
+#: model:ir.model.fields,field_description:edi_record_metadata_oca.field_edi_exchange_record__metadata_display
+msgid "Metadata Display"
+msgstr "Відображення метаданих"

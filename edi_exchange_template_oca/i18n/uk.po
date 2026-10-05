@@ -100,3 +100,52 @@ msgstr "Звіт"
 #: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_form
 msgid "Template"
 msgstr "Шаблон"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_mixin__allowed_type_ids
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__allowed_type_ids
+msgid "Allowed Exchange Types"
+msgstr "Дозволені типи обміну"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_mixin__code_snippet_docs
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__code_snippet_docs
+msgid "Code Snippet Docs"
+msgstr "Документація фрагмента коду"
+
+#. module: edi_exchange_template_oca
+#: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_form
+msgid "Code snippet"
+msgstr "Фрагмент коду"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_mixin__backend_type_id
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__backend_type_id
+msgid "EDI Backend type"
+msgstr "Тип бекенду EDI"
+
+#. module: edi_exchange_template_oca
+#: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__template_id
+#: model:ir.model.fields.selection,name:edi_exchange_template_oca.selection__edi_exchange_template_output__generator__qweb
+msgid "Qweb Template"
+msgstr "Шаблон QWeb"
+
+#. module: edi_exchange_template_oca
+#: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__template_key
+msgid "Template key"
+msgstr "Ключ шаблону"

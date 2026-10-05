@@ -118,3 +118,73 @@ msgstr "Група маршрутів"
 #: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__route_type
 msgid "Route Type"
 msgstr "Тип маршруту"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__code_snippet_docs
+msgid "Code Snippet Docs"
+msgstr "Документація фрагмента коду"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_exchange_consumer_mixin__origin_edi_endpoint_id
+msgid "EDI origin endpoint"
+msgstr "Початкова кінцева точка EDI"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__endpoint_hash
+msgid "Endpoint Hash"
+msgstr "Хеш кінцевої точки"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_backend__endpoints_count
+msgid "Endpoints Count"
+msgstr "Кількість кінцевих точок"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__exchange_type_id
+msgid "Exchange Type"
+msgstr "Тип обміну"
+
+#. module: edi_endpoint_oca
+#: model_terms:ir.ui.view,arch_db:edi_endpoint_oca.edi_endpoint_search_view
+msgid "Exchange type"
+msgstr "Тип обміну"
+
+#. module: edi_endpoint_oca
+#: model_terms:ir.ui.view,arch_db:edi_endpoint_oca.edi_endpoint_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: edi_endpoint_oca
+#: model_terms:ir.ui.view,arch_db:edi_endpoint_oca.edi_backend_view_form
+msgid "Manage endpoints"
+msgstr "Керувати кінцевими точками"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__registry_sync
+msgid "Registry Sync"
+msgstr "Синхронізація реєстру"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__request_content_type
+msgid "Request Content Type"
+msgstr "Тип вмісту запиту"
+
+#. module: edi_endpoint_oca
+#: model:ir.model.fields,field_description:edi_endpoint_oca.field_edi_endpoint__request_method
+msgid "Request Method"
+msgstr "Метод запиту"
+
+#. module: edi_endpoint_oca
+#: model:ir.actions.server,name:edi_endpoint_oca.server_action_registry_sync
+msgid "Sync registry"
+msgstr "Синхронізувати реєстр"

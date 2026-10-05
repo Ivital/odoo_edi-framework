@@ -39,3 +39,61 @@ msgstr "Обміни"
 #: model_terms:ir.ui.view,arch_db:edi_purchase_oca.view_partner_form
 msgid "Purchase"
 msgstr "Закупівля"
+
+#. module: edi_purchase_oca
+#: model_terms:ir.ui.view,arch_db:edi_purchase_oca.purchase_order_form
+msgid "Disable automated actions"
+msgstr "Вимкнути автоматизовані дії"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__origin_edi_endpoint_id
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__origin_edi_endpoint_id
+msgid "EDI origin endpoint"
+msgstr "Початкова кінцева точка EDI"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__origin_exchange_type_id
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__origin_exchange_type_id
+msgid "EDI origin exchange type"
+msgstr "Початковий тип обміну EDI"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__origin_exchange_record_id
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__origin_exchange_record_id
+msgid "EDI origin record"
+msgstr "Початковий запис EDI"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_res_partner__edi_purchase_conf_ids
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_res_users__edi_purchase_conf_ids
+msgid "EDI purchase configuration"
+msgstr "Конфігурація EDI для закупівлі"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__edi_exchange_ready
+msgid "Edi Exchange Ready"
+msgstr "Обмін EDI готовий"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__edi_has_form_config
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__edi_has_form_config
+msgid "Edi Has Form Config"
+msgstr "EDI має конфігурацію форми"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__exchange_record_ids
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__exchange_record_ids
+msgid "Exchange Record"
+msgstr "Запис обміну"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__exchange_record_count
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__exchange_record_count
+msgid "Exchange Record Count"
+msgstr "Кількість записів обміну"
+
+#. module: edi_purchase_oca
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order__exchange_related_record_ids
+#: model:ir.model.fields,field_description:edi_purchase_oca.field_purchase_order_line__exchange_related_record_ids
+msgid "Exchange Related Record"
+msgstr "Пов'язаний запис обміну"

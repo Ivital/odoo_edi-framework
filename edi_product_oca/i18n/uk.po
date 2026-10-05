@@ -26,3 +26,52 @@ msgstr "Вимкнути автоматично"
 #: model:ir.model.fields,field_description:edi_product_oca.field_product_template__edi_config
 msgid "Edi Config"
 msgstr "Конфігурація EDI"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__origin_edi_endpoint_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__origin_edi_endpoint_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__origin_edi_endpoint_id
+msgid "EDI origin endpoint"
+msgstr "Початкова кінцева точка EDI"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__origin_exchange_type_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__origin_exchange_type_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__origin_exchange_type_id
+msgid "EDI origin exchange type"
+msgstr "Початковий тип обміну EDI"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__origin_exchange_record_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__origin_exchange_record_id
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__origin_exchange_record_id
+msgid "EDI origin record"
+msgstr "Початковий запис EDI"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__edi_has_form_config
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__edi_has_form_config
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__edi_has_form_config
+msgid "Edi Has Form Config"
+msgstr "EDI має конфігурацію форми"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__exchange_record_ids
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__exchange_record_ids
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__exchange_record_ids
+msgid "Exchange Record"
+msgstr "Запис обміну"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__exchange_record_count
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__exchange_record_count
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__exchange_record_count
+msgid "Exchange Record Count"
+msgstr "Кількість записів обміну"
+
+#. module: edi_product_oca
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_packaging__exchange_related_record_ids
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_product__exchange_related_record_ids
+#: model:ir.model.fields,field_description:edi_product_oca.field_product_template__exchange_related_record_ids
+msgid "Exchange Related Record"
+msgstr "Пов'язаний запис обміну"
