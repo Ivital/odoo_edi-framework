@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__backend_type_id
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_search
+msgid "Backend type"
+msgstr "Тип бекенду"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__code
+msgid "Code"
+msgstr "Код"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__create_uid
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__create_date
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__description
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__display_name
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: edi_state_oca
+#: model:ir.actions.act_window,name:edi_state_oca.act_open_edi_state_view
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_consumer_mixin__edi_state_id
+#: model:ir.ui.menu,name:edi_state_oca.menu_edi_state
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_view_form
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_view_search
+msgid "EDI state"
+msgstr "Стан EDI"
+
+#. module: edi_state_oca
+#: model:ir.actions.act_window,name:edi_state_oca.act_open_edi_state_workflow_view
+#: model:ir.ui.menu,name:edi_state_oca.menu_edi_state_workflow
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_form
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_search
+msgid "EDI state workflow"
+msgstr "Робочий процес станів EDI"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__is_default
+msgid "Is Default"
+msgstr "За замовчуванням"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__model_id
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_search
+msgid "Model"
+msgstr "Модель"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__name
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_workflow__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: edi_state_oca
+#: model:ir.ui.menu,name:edi_state_oca.menu_edi_state_root
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_exchange_type_view_form
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_workflow_view_form
+msgid "States"
+msgstr "Штати"
+
+#. module: edi_state_oca
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state__workflow_id
+#: model:ir.model.fields,field_description:edi_state_oca.field_edi_state_consumer_mixin__edi_state_workflow_id
+#: model_terms:ir.ui.view,arch_db:edi_state_oca.edi_state_view_search
+msgid "Workflow"
+msgstr "Робочий процес"

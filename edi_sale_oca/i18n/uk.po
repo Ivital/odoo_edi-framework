@@ -17,3 +17,25 @@ msgstr "EDI продажів"
 #: model:ir.module.module,summary:base.module_edi_sale_oca
 msgid "Configuration and special behaviors for EDI on sales."
 msgstr "Налаштування та спеціальна поведінка EDI для продажів."
+
+#. module: edi_sale_oca
+#: model:ir.model.fields,field_description:edi_sale_oca.field_sale_order__edi_disable_auto
+#: model:ir.model.fields,field_description:edi_sale_oca.field_sale_order_line__edi_disable_auto
+msgid "Disable auto"
+msgstr "Вимкнути автоматично"
+
+#. module: edi_sale_oca
+#: model:ir.model.fields,field_description:edi_sale_oca.field_sale_order__edi_config
+#: model:ir.model.fields,field_description:edi_sale_oca.field_sale_order_line__edi_config
+msgid "Edi Config"
+msgstr "Конфігурація EDI"
+
+#. module: edi_sale_oca
+#: model:ir.ui.menu,name:edi_sale_oca.menu_sale_edi_records
+msgid "Exchanges"
+msgstr "Обміни"
+
+#. module: edi_sale_oca
+#: model_terms:ir.ui.view,arch_db:edi_sale_oca.view_partner_form
+msgid "Sale"
+msgstr "Продаж"
